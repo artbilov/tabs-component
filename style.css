@@ -1,0 +1,58 @@
+body {
+  width: 80%;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tab {
+  background-color: #9dbcff;
+  border: 0;
+  padding: 6px 10px;
+}
+
+.tab.active {
+  background-color: #b9ffff;
+}
+
+.tab-content.tab-content>div {
+  background-color: hsl(calc(60* --color1), 100%, 86%);
+  padding: 8px 12px;
+}
+
+.tab:nth-child(1), .tab-content>:nth-child(1) {
+  background-color: var(--color1);
+}
+ 
+.tab:nth-child(2), .tab-content>:nth-child(2) {
+  background-color: var(--color2);
+}
+ 
+.tab:nth-child(3), .tab-content>:nth-child(3) {
+  background-color: var(--color3);
+}
+ 
+.tab:nth-child(4), .tab-content>:nth-child(4) {
+  background-color: var(--color4);
+}
+ 
+.tab:nth-child(5), .tab-content>:nth-child(5) {
+  background-color: var(--color5);
+}
+ 
+.tab:nth-child(6), .tab-content>:nth-child(6) {
+  background-color: var(--color6);
+}
+ 
+.tab:nth-child(7), .tab-content>:nth-child(7) {
+  background-color: var(--color7);
+}
+ 
+.tab:nth-child(8), .tab-content>:nth-child(8) {
+  background-color: var(--color8);
+}
+ 
